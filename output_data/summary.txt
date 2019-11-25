@@ -2,27 +2,12 @@ min_twilight_deg:	-18.0
 max_airmass:	2.0
 N_D_beforeandaftertransit:	0.5
 max_night_len_hrs:	10.0
-max_lunar_illumination:	0.5
+min_lunar_illumination:	0.5
 
 target_name:	toi732
 ra_deg:	154.6449
 dec_deg:	-11.7178
 texp_min:	30
-
-telescope_name:	HARPS
-lat_deg:	-29.26
-lon_deg:	-70.74
-elevation_m:	2400
-min_Moon_alt:	-inf
-Npernight:	1
-dtmin_min:	120
-start_date:	2019-11-20
-survey_len_yrs:	0.5
-fractional_weather_loss:	0.2
-fraction_available_for_program:	0.5
-median_seeing_arcsec:	0.87
-toverhead_min:	5
-sigmaRV_toi732_mps:	3.000
 
 telescope_name:	SPIRou
 lat_deg:	19.8
@@ -31,13 +16,28 @@ elevation_m:	4200
 min_Moon_alt:	-40
 Npernight:	1
 dtmin_min:	120
-start_date:	2019-11-20
+start_date:	2019-11-25
 survey_len_yrs:	0.5
 fractional_weather_loss:	0.2
 fraction_available_for_program:	0.25
 median_seeing_arcsec:	0.6
 toverhead_min:	5
 sigmaRV_toi732_mps:	2.250
+
+telescope_name:	HARPS
+lat_deg:	-29.26
+lon_deg:	-70.74
+elevation_m:	2400
+min_Moon_alt:	-inf
+Npernight:	1
+dtmin_min:	120
+start_date:	2019-11-25
+survey_len_yrs:	0.5
+fractional_weather_loss:	0.2
+fraction_available_for_program:	0.5
+median_seeing_arcsec:	0.87
+toverhead_min:	5
+sigmaRV_toi732_mps:	3.000
 
 telescope_name:	HARPSN
 lat_deg:	28.7
@@ -46,10 +46,25 @@ elevation_m:	2370
 min_Moon_alt:	-inf
 Npernight:	2
 dtmin_min:	60
-start_date:	2019-11-20
+start_date:	2019-11-25
 survey_len_yrs:	0.5
 fractional_weather_loss:	0.4
 fraction_available_for_program:	0.5
 median_seeing_arcsec:	1.2
 toverhead_min:	5
 sigmaRV_toi732_mps:	4.000
+
+telescope_name:	NIRPS
+lat_deg:	-29.26
+lon_deg:	-70.74
+elevation_m:	2400
+min_Moon_alt:	-inf
+Npernight:	1
+dtmin_min:	120
+start_date:	2019-11-25
+survey_len_yrs:	0.5
+fractional_weather_loss:	0.2
+fraction_available_for_program:	0.25
+median_seeing_arcsec:	0.87
+toverhead_min:	5
+sigmaRV_toi732_mps:	2.250
